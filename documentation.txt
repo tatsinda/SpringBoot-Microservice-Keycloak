@@ -1,0 +1,4 @@
+*******le but du projet est de creer une application contenant des produits et des fournisseurs***
+-on a un serveur keycloak pour la gestion des users
+-on a le projet products-app qui est un service qui gere les produits, un front-end basé sur thymleaf et qui communique avec Keycloak en mode public-client
+-on a le projet suppliers-service qui est un service back-end qui gere les fournisseurs et communique avec keycloak en mode bearer-only
